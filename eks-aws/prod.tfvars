@@ -1,0 +1,13 @@
+aws_region          = "us-east-1"
+vpc_cidr            = "10.2.0.0/16"
+private_subnets     = ["10.2.0.0/19", "10.2.32.0/19"]
+public_subnets      = ["10.2.64.0/19"]
+eks_cluster_name    = "prod-eks-cluster"
+s3_buckets          = ["bucket-1", "bucket-2"]
+ecr_repository_name = "prod-ecr-repo"
+msk_cluster_name    = "prod-msk-cluster"
+number_of_broker_nodes = 4
+glue_database_name  = "prod_glue_database"
+glue_table_name     = "prod_glue_table"
+glue_s3_location    = "glue/"
+environment         = "prod"
